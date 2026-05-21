@@ -133,7 +133,9 @@ export default function App() {
             Game IQ, video review, parent updates, homework plans, and measurable development.
           </p>
           <div className="hero-actions">
-            <Button onClick={() => scrollToId("book")}>Book Free Assessment <ChevronRight size={18} /></Button>
+           <a className="btn" href="https://calendly.com/kwame1996/30min" target="_blank" rel="noreferrer">
+  Book Free Assessment <ChevronRight size={18} />
+</a>
             <Button secondary onClick={() => scrollToId("features")}>Explore AI Features</Button>
           </div>
         </motion.div>
