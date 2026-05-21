@@ -277,13 +277,27 @@ export default function App() {
   action="https://formspree.io/f/mkoejlvw"
   method="POST"
 >
-              <input required placeholder="Parent name" />
-              <input required type="email" placeholder="Email address" />
-              <input placeholder="Phone number" />
-              <input required placeholder="Player name" />
-              <select><option>U7-U9</option><option>U10-U12</option><option>U13-U15</option><option>U16+</option></select>
-              <select><option>Striker</option><option>Winger</option><option>Midfielder</option><option>Defender</option><option>Goalkeeper</option></select>
-              <textarea rows="5" placeholder="What does your child need help with?" />
+              <input name="parent_name" required placeholder="Parent name" />
+<input name="email" required type="email" placeholder="Email address" />
+<input name="phone" placeholder="Phone number" />
+<input name="player_name" required placeholder="Player name" />
+
+<select name="age_group">
+  <option>U7-U9</option>
+  <option>U10-U12</option>
+  <option>U13-U15</option>
+  <option>U16+</option>
+</select>
+
+<select name="position">
+  <option>Striker</option>
+  <option>Winger</option>
+  <option>Midfielder</option>
+  <option>Defender</option>
+  <option>Goalkeeper</option>
+</select>
+
+<textarea name="message" rows="5" placeholder="What does your child need help with?" />
               <Button>Request Assessment</Button>
             </form>
           )}
