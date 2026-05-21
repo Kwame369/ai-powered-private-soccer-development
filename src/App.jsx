@@ -106,7 +106,9 @@ export default function App() {
     <main>
       <header className="header">
         <div className="brand">
-          <div className="logo"><Sparkles size={22} /></div>
+          <div className="logo">
+  <img src="/logo.svg" alt="APD Logo" style={{ width: "42px" }} />
+</div>
           <div>
             <strong>{brand.name}</strong>
             <small>Game IQ + Technical Development + AI Progress Tracking</small>
