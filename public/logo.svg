@@ -1,0 +1,10 @@
+<svg width="420" height="120" viewBox="0 0 420 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="120" rx="24" fill="#020617"/>
+  <circle cx="60" cy="60" r="34" fill="#0f172a" stroke="#39ff14" stroke-width="4"/>
+  <path d="M38 60h44M44 43h20M44 77h20M64 43l18-10M64 77l18 10M50 60l18-18M50 60l18 18" stroke="#39ff14" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="38" cy="60" r="4" fill="#39ff14"/>
+  <circle cx="64" cy="43" r="4" fill="#39ff14"/>
+  <circle cx="64" cy="77" r="4" fill="#39ff14"/>
+  <text x="115" y="58" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#ffffff">APD</text>
+  <text x="115" y="86" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#39ff14">AI-POWERED PRIVATE SOCCER DEVELOPMENT</text>
+</svg>
