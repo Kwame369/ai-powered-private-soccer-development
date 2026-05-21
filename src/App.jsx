@@ -272,7 +272,11 @@ export default function App() {
               <Button onClick={() => setSubmitted(false)}>Send Another</Button>
             </div>
           ) : (
-            <form onSubmit={(e) => { e.preventDefault(); setSubmitted(true); }}>
+            <form
+  className="booking-form"
+  action="https://formspree.io/f/mkoejlvw"
+  method="POST"
+>
               <input required placeholder="Parent name" />
               <input required type="email" placeholder="Email address" />
               <input placeholder="Phone number" />
